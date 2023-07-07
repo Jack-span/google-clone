@@ -111,7 +111,8 @@ footer .footer-group:nth-child(2) {
 }
 
 .google-leaf {
-    width: auto;
+    width: 12px;
+    margin: 0;
 }
 
 a {
