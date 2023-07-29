@@ -6,16 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>google.com clone</title>
         <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
     </head>
         <body>
             <div class="main">
                 <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
                 
                 
-                <input type="text" />
+                <input id="search-text" type="text" />
                 
                 <div class="google-buttons">
-                    <button>Google Search</button>
+                    <button onclick="handleButtonClicked()">Google Search</button>
                     <button>I'm Feeling Lucky</button>
                 </div>
             </div>
